@@ -20,6 +20,8 @@
   - Select Document Store
   - Link to Retriever
 
+<img width="1666" height="1322" alt="スクリーンショット 2026-01-03 9 56 57" src="https://github.com/user-attachments/assets/83dd8a7a-4d8e-41c2-a444-2c015732f9ef" />
+
 ### Document Store
 - Add a document store
 - In the document store, add Document Loader. Select Microsoft Excel
@@ -30,6 +32,9 @@
   - use One document per page and no splitter
 - After uploading, select more actions -> Upsert All Chunks -> Set up Embeddings, Vector store and Record Manager
 - After upsert, check record count in pinecorn
+
+<img width="1628" height="1307" alt="スクリーンショット 2026-01-03 9 57 46" src="https://github.com/user-attachments/assets/d8f380d9-b223-4a0a-9c1a-4b67ee5938f7" />
+<img width="1659" height="643" alt="スクリーンショット 2026-01-03 10 00 02" src="https://github.com/user-attachments/assets/3b5fe9d1-aadb-49ff-be06-a405a0c82de6" />
 
 #### Embeddings
 - Select Credential, and model(the small one)
@@ -50,3 +55,8 @@
 - Method: Session Pooler, click view parameters
 - In flowise, Create new credential with the info above
 - Set Cleanup to full
+
+## Results
+<img width="1675" height="1315" alt="スクリーンショット 2026-01-03 10 00 49" src="https://github.com/user-attachments/assets/a7265e04-49ed-4b2a-a00a-148cd5c1052f" />
+
+
